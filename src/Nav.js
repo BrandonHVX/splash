@@ -1,76 +1,34 @@
 import React from 'react';
+import './nav.css';
+import mdglogo from './mdglogo.png';
 
 export default function Nav() {
 	return (
-		<div>
-			<nav class="navbar navbar-fixed-top navbar-default">
-				<div class="container">
-					<button type="button" class="navbar-toggle">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar" />
-						<span class="icon-bar" />
-						<span class="icon-bar" />
-					</button>
-
-					<nav class="navbar-fullscreen" id="navbar-middle">
-						<button type="button" class="close" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-						<ul class="navbar-fullscreen-links">
+		<div class="menu-wrap">
+			<input type="checkbox" class="toggler" />
+			<div class="hamburger">
+				<div />
+			</div>
+			<div class="menu">
+				<div>
+					<div>
+						<ul>
 							<li>
-								<a href="./index.html" title="">
-									Home
-								</a>
+								<a href="#">Home</a>
 							</li>
 							<li>
-								<a href="./project.html" title="">
-									Project
-								</a>
+								<a href="#">About</a>
 							</li>
 							<li>
-								<a href="./about.html" title="">
-									About me
-								</a>
+								<a href="#">Services</a>
 							</li>
 							<li>
-								<a href="./components.html" title="">
-									Components
-								</a>
+								<a href="#">Contact</a>
 							</li>
 						</ul>
-
-						<div class="footer-container">
-							<p>
-								<small>
-									© Untitled | Website created with{' '}
-									<a
-										href="http://www.mashup-template.com/"
-										title="Create website with free html template"
-									>
-										Mashup Template
-									</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">
-										Unsplash
-									</a>
-								</small>
-							</p>
-							<p class="footer-share-icons">
-								<a href="https://www.twitter.com" class="fa-icon" title="">
-									<i class="fa fa-twitter" aria-hidden="true" />
-								</a>
-								<a href="https://www.linkedin.com" class="fa-icon" title="">
-									<i class="fa fa-instagram" aria-hidden="true" />
-								</a>
-								<a href="https://www.behance.com" class="fa-icon" title="">
-									<i class="fa fa-behance" aria-hidden="true" />
-								</a>
-								<a href="https://www.vimeo.com" class="fa-icon" title="">
-									<i class="fa fa-vimeo" aria-hidden="true" />
-								</a>
-							</p>
-						</div>
-					</nav>
+					</div>
 				</div>
-			</nav>
+			</div>
 		</div>
 	);
 }
