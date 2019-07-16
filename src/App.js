@@ -11,15 +11,9 @@ function App() {
 	return (
 		<header class="header-wrap">
 			<Header />
-			<div class="v-header container">
-				<div class="fullscreen-video-wrap">
-					<video src="mdg.mov" class="videoInsert" autoplay="true" loop="true" muted="true">
-						{' '}
-					</video>
-				</div>
+			<div class="v-header container" />
 
-				<div class="header-content">{/* <HomeAni /> */}</div>
-			</div>{' '}
+			<div class="header-content">{/* <HomeAni /> */}</div>
 		</header>
 	);
 }
