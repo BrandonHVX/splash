@@ -18,10 +18,7 @@ function App() {
 					</video>
 				</div>
 
-				<div class="header-overlay" />
-				<div class="header-content">
-					<HomeAni />
-				</div>
+				<div class="header-content">{/* <HomeAni /> */}</div>
 			</div>{' '}
 		</header>
 	);
